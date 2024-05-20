@@ -11,7 +11,7 @@ int main(){
 
     for(int i = 1; i < n; i++){
 
-        a = (n * n) + (2 * n);
+        a = (n * n) + pow((2 * n),2);
 
         counter = counter + pow((n + i),2);
     }
