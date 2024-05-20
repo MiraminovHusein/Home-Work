@@ -11,7 +11,7 @@ int main(){
 
     for(int i = a; i <= b; i++){
 
-        counter = counter * pow((i),2);
+        counter = counter + pow((i),2);
     }
     cout<<"Multi= "<<counter<<endl;
     main();
