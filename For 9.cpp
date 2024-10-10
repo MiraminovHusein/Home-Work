@@ -5,7 +5,7 @@ using namespace std;
 int main(){
 
     int a,b;
-    long long counter = 1;
+    long long counter = 0;
 
     cin>>a>>b;
 
